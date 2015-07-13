@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*config wrapper*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contact {
+	font-weight:bold;
+	font-size:.9em;
+	font:"Times New Roman", Times, serif
+}
+
+/*config body*/
+body {
+ background-color: #ffffcc;
+ color: #003300;
+ font: Helvetica, Arial, sans-serif
+}
+/*config header*/
+header {
+	background-color: #ffffcc;
+	color: #48751A;
+}
+/*config h1*/
+h1 {
+	line-height: 200%;
+}
+/*config h2*/
+h2
+{
+	background-color:#ffffcc;
+	color: #003366;
+}
+
+/*config h3*/
+h3
+{
+	background-color:#ffffcc;
+	color: #006600;
+}
+/*config nav*/
+nav {
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+/* config dd element*/
+dd {
+	font-style:italic;
+	font-size:.9em;
+	line-height:200%;
+}
+
+/*config footer*/
+footer {
+	font-size: .60em;
+	font-style: italic;
+}

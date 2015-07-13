@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*config wrapper*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*config body*/
+body {
+ background-color: #ffffcc;
+ color: #330000;
+ font-family: Verdana, Arial, sans-serif
+}
+/*config header*/
+header {
+	background-color: #ccaa66;
+	color: #000000;
+	text-align: center;
+}
+/*config h1*/
+h1 {
+	line-height: 200%;
+}
+/*test config h1*/
+h2
+{
+	color: #3095A7;
+	text-shadow: 5px 5px 10px #000
+}
+/*config nav*/
+nav {
+	text-align: center;
+}
+/*config footer*/
+footer {
+	background-color: #ccaa66;
+	color: #000000;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center
+}

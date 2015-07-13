@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+	border: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif,Tahoma, Geneva;
+	line-height: 1.5em;
+}
+header {
+/*	background-image:url(img/Banner.gif);*/
+	background: #ccc;
+/*	background-position: center;
+	background-repeat: no-repeat;*/
+	height: 100px;
+}
+header h1 {
+	margin: 0;
+/*	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;*/
+	padding-top: 15px;
+}
+main {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 100%;
+}
+p {
+	color: #555;
+}
+ol{
+	list-style-type:disc;
+}
+
+/*config NAV ELEMENT*/			
+nav {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 230px;
+	margin-left: -230px;
+	background: #eee;
+}
+/* nav a and Pseudoclasses*/
+nav a {
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+nav a:link {
+	color: #996633
+}
+nav a:visited {
+	color: #ccaa66
+}
+nav a:hover {
+	color: #330000
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+/*config footer*/
+footer {
+	clear: left;
+	width: 100%;
+	background: #ccc;
+	text-align: center;
+	padding: 4px 0;
+}
+footer a:link {
+	color: #ffffcc;
+}
+footer a:visited {
+	color: #f2eab7;
+}
+footer a:hover {
+	color: #330000;
+}
+header, nav, main, footer {
+	display: block;
+}
+#mobile {
+	display: none;
+}
+#desktop {
+	display: inline;
+}
+.details {
+	overflow: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.floatright {
+	float: right;
+	padding-left: 20px;
+}
+.floatleft {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.innertube {
+	margin: 15px; /* Padding for content */
+	margin-top: 0;
+}
+#wrapper {
+	overflow: hidden;
+}
+#content {
+	margin-right: 230px; /* Same as nav width */
+}

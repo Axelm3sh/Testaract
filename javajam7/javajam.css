@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 150px;
+	background-color: #f2eab7;
+	color: #000000;
+	overflow: auto;
+}
+
+img {
+	border:none;
+}
+
+/*config body*/
+body {
+	background-image:url(img/background.gif);
+ 	background-color: #ffffcc;
+ 	color: #330000;
+ 	font-family: Verdana, Arial, sans-serif;
+}
+/*config header*/
+header {
+	background-image:url(img/javalogo.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccaa66;
+	color: #000000;
+	height: 100px;
+}
+/*config h1*/
+h1 {
+	margin: 0px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+/*test config h1*/
+h2
+{
+	text-transform: uppercase;
+	background-color:#ffffcc;
+	color: #663300;
+	font-size:1.2em;
+	border-bottom: 1px solid #000000;
+	padding: 5px 0 0 5px;
+	margin-right: 20px;
+	clear: left;
+}
+
+/*config NAV ELEMENT*/
+nav {
+	text-align: center;
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+/* nav a and Pseudoclasses*/
+nav a{
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+nav a:link {
+	color: #996633
+}
+nav a:visited {
+	color: #ccaa66
+}
+nav a:hover {
+	color: #330000
+}
+nav ul {
+	list-style-type: none;
+}
+
+/*config footer*/
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ccaa66;
+	color: #000000;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	clear:both;
+}
+
+footer a:link{
+	color: #ffffcc;
+}
+footer a:visited {
+	color: #f2eab7;
+}
+footer a:hover {
+	color: #330000;
+}
+
+header, nav, main, footer { 
+	display:block; 
+}
+
+#mobile{
+	display:none;
+}
+#desktop{
+	display:inline;
+}
+/*config wrapper*/
+#wrapper {
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 2px 4px 4px #000;
+	width: 80%;
+	background-color:#ffffcc;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.details {
+	overflow: auto;
+	padding-left:20%;
+	padding-right:20%;
+	
+}
+
+.floatright {
+	float:right;
+	padding-left: 20px;		
+}
+
+.floatleft {
+	float: left;
+	padding-right:	20px;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	body{
+		margin: 0;
+		background-image: none;
+	}
+	
+	#wrapper {
+		width: auto;
+		min-width: 0;
+		margin:0;
+		box-shadow:none;
+	}
+	
+	header {
+		background-image:url(img/javalogomobile.gif);
+		background-position:center;
+		background-repeat:no-repeat;
+		height: 80px;
+	}
+	
+	nav{
+		float: none;
+		width: auto;
+		padding-top:0;
+		margin-top:0;
+	}
+	
+	nav li{
+		display:inline-block;
+	}
+	nav a{
+		padding: 1em;
+		font-size: 1.3em;
+		width: 8em;
+		font-weight:bold;
+		border-style:none;
+	}
+	nav ul{
+		padding:0;
+		margin:0;
+	}
+	main{
+		padding:2em;
+		margin:0;
+		font-size: 90%;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	nav a{
+		display:block;
+		padding:.2em;
+		width:auto;
+		border-bottom:1px inset #330000;
+	}
+	nav li{
+		display: block;
+	}
+	h2{
+		padding-top: .5em;
+		padding-right:0;
+		padding-bottom:0;
+		padding-left:.5em;
+		margin-right:.5em;
+	}
+	.details{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.floatright{
+		display:none;
+	}
+	.floatleft{
+		padding-left:.5em;
+		padding-right:.5em;
+	}
+	#mobile{
+		display:inline;
+	}
+	#desktop{
+		display:none;
+	}
+}
